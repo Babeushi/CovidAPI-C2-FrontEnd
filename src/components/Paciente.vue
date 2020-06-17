@@ -1,5 +1,5 @@
 <template>
-    <div v-if="currentPaciente" class="size edit-form table-wrapper">
+    <div v-if="currentPaciente" class="size edit-form addEdit">
         <h4>Paciente</h4>
         <form>
             <div class="form-group">
@@ -35,8 +35,10 @@
                 <input type="text" class="form-control" id="prob_saude" v-model="currentPaciente.prob_saude">
             </div>
         </form>
-        <button class="btn badge-danger mr-2" @click="deletarPaciente">Deletar Paciente</button>
-        <button type="submit" class="btn badge-success mr-2" @click="atualizarPaciente">Atualizar Paciente</button>
+        <button class="btn mr-2" style="background: #cc66ad;
+  color: #fff;" @click="deletarPaciente">Deletar Paciente</button>
+        <button type="submit" class="btn  mr-2" style="background: #cc66ad;
+  color: #fff;" @click="atualizarPaciente">Atualizar Paciente</button>
     </div>
     <div v-else>
         <p>

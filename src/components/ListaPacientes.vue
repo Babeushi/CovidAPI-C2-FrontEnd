@@ -8,7 +8,7 @@
           <div class="cos-sm-6">
             <h2>
               Infectados
-              <b>COVID-19</b>
+              <b>Sejam Bem-vindos!</b>
             </h2>
           </div>
         </div>
@@ -53,7 +53,7 @@
       </table>
       <div class="row">
         <div class="col-sm-6">
-          <a href="/adicionar" class="btn btn-success" data-toggle="modal">
+          <a href="/adicionar" class="btn addButton" data-toggle="modal">
             Adicionar paciente
             <i class="material-icons">&#xE147;</i>
           </a>

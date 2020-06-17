@@ -1,5 +1,5 @@
 <template>
-    <div class="size submit-form table-wrapper">
+    <div class="size submit-form addEdit">
         <div class="form-group">
             <label for="nome">Nome</label>
             <input 
